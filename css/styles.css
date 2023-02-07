@@ -1,0 +1,102 @@
+/*------------------
+    Common Styls
+------------------*/
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700;800&display=swap');
+
+:root {
+    --primary-color: #3E3E3E;
+    --secondary-color: #0A0826;
+    --text-color: #6C6C6C;
+    --text-light: #848199;
+}
+
+* {
+    margin: 0;
+    font-family: 'Poppins', sans-serif;
+}
+
+section {
+    margin: 50px;
+}
+
+/* Header -> Nav */
+.cs-navbar-brand {
+    color: var(--primary-color);
+    font-weight: 700;
+    font-size: 22px;
+}
+
+.cs-nav li {
+    margin-left: 15px;
+}
+
+.cs-nav li a {
+    color: var(--primary-color);
+    font-weight: 500;
+    font-size: 16px;
+}
+
+/* Header -> Banner */
+.cs-carousel-caption {
+    max-width: 103.56564019448946vh;
+    margin: auto;
+
+}
+
+.cs-carousel-caption h5 {
+    color: #FFFFFF;
+    font-weight: 600;
+    font-size: 48px;
+    line-height: 58px;
+}
+
+.cs-carousel-caption p {
+    color: #FFFFFF;
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 24px;
+}
+
+.cs-carousel-caption button {
+    background: #FFFFFF;
+    border-radius: 5px;
+    color: #3F87F5;
+    font-weight: 700;
+    font-size: 16px;
+    padding: 10px 40px;
+    border: 0;
+}
+
+/* <!-- main-top --> */
+.top-main-section {
+    margin-top: 100px;
+    display: flex;
+    align-items: center;
+    gap: 35px;
+}
+
+.top-header {
+    font-weight: 700;
+    font-size: 38px;
+    line-height: 60px;
+    color: #0A0826;
+}
+
+.top-content-description {
+    color: #6C6C6C;
+    font-weight: 700;
+    text-align: justify;
+    font-size: 16px;
+    line-height: 28px;
+}
+
+.top-content-button {
+    background: #3F87F5;
+    color: #FFFFFF;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 24px;
+    border: 0;
+    padding: 10px 24px;
+}
