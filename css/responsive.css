@@ -50,6 +50,10 @@
     .top-image img {
         width: 100%;
     }
+    .vector-pop-up {
+        left: 6%;
+        top: -17%;
+    }
 
     /* <!-- package section --> */
     .packages-container {
@@ -100,6 +104,11 @@
 
     .top-image img {
         width: 100%;
+    }
+
+    .vector-pop-up {
+        left: 31%;
+        top: -28%;
     }
 
     /* <!-- package section --> */
